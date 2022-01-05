@@ -1,6 +1,7 @@
 /*  Starblaster, authored by Julianna Clarke
 
-The following is */
+The following is an application that uses an arduino as a controller for a game in processing. It reads the value of a potentiometer and sends the
+information to the corresponding processing file to update the GUI by drawing a rectangle according to the received values. */
 
 import processing.serial.*;
 Serial port;
